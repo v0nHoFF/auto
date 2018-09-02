@@ -8,9 +8,11 @@ THe first features that the script brings to your distro image are:
 
 
 
--Smart Brightness alias SmartB
--Smart NightLight alias SmartNiLi
--Smart Cpu Frequency alias SmartFRQX
+-Smart Brightness alias SmartB;
+
+-Smart NightLight alias SmartNiLi;
+
+-Smart Cpu Frequency alias SmartFRQX;
 
 
 
