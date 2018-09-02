@@ -1,7 +1,13 @@
 # smartLinux
+
+
+
 Part of the smartLinux projects
 This is a little project that adds a couple of smart features to any linux debian based distro.
 
+# Installing
+  
+  Just simply clone via the git command "git clone https://github.com/v0nHoFF/smartLinux.git" in your terminal or download as a .zip and then run the installer with root privileges.
 
 
 THe first features that the script brings to your distro image are:
