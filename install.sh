@@ -25,7 +25,9 @@
                         apt-get -y install git 
                         sleep 1.3
                         echo "Downloading project"
-                        git clone https://github.com/v0nHoFF/auto.git
+                        wget -P /home/$configuser/Pictures/ https://www.hdwallpapers.in/download/macos_sierra_mountains_5k-wide.jpg
+                        gsettings set org.gnome.desktop.background picture-uri file:///home/$configuser/Pictures/macos_sierra_mountains_5k-wide.jpg
+			git clone https://github.com/v0nHoFF/auto.git
                         sleep 0.2
                         cd auto/
                         chmod +x auto.sh
