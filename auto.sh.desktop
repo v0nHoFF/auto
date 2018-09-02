@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/usr/bin/auto.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=smartLinux
+Name=smartLinux
+Comment[en_US]=make linux smart
+Comment=make linux smart
