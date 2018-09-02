@@ -21,7 +21,9 @@
                         fi
 
                         echo -e "We're setting up all modules and drivers we need"
-                        apt-get -y install cpufrequtils 
+			dconf write /org/gnome/settings-daemon/plugins/color/night-light-temperature 5500
+                        apt-get -y install dconf-tools
+			apt-get -y install cpufrequtils 
                         apt-get -y install git 
                         sleep 1.3
                         echo "Downloading project"
