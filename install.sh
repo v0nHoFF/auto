@@ -1,8 +1,4 @@
 #!/bin/bash
-
-
-
-
                         mount -o remount,rw /
                         user=$(whoami)
                         configuser=$(ls /home | head -1)

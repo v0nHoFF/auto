@@ -1,9 +1,6 @@
 #!/bin/bash
-
-
 synclient TapButton3=3
 synclient TapButton2=2
-
 while true
 				do
 					H=$(date +%H)
